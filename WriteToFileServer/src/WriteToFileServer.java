@@ -2,9 +2,6 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-//Client scrive "nome file parola1 parola2, server crea nuovo file e scrive o aggiunge testo se file già esistaente
-//server risponde con testo interno al file
-
 public class WriteToFileServer {
 
     private final int port;
