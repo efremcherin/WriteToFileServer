@@ -1,9 +1,6 @@
 # WriteToFileServer
 
-Multithreaded server che dopo aver ricevuto un input nel seguente format: 
+• Developed a multi-threaded and robust server that handles client requests, saving in a file text data transmitted by
+the client and responding with the updated content of the file.
 
--nomeFile.txt parola1 parola2 ... parolaN
-
-Crea un nuovo file di nome nomeFile.txt o lo modifica se già esistente, aggiungendo come contenuto "parola1 ... parolaN"
-
-Manda poi in risposta al client l'intero contenuto del file.
+• Developed a client application properly built to communicate with the server.
